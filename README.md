@@ -18,7 +18,7 @@
 
 ### Project Topic
 
-Insurance companies get thousands of vehicle claims, and a small number of them are fraud (like staged or exaggerated accidents). In this project we try to predict whether a claim is fraudulent, and we do a separate task where we classify how badly a car is damaged from photos.
+Insurance companies get thousands of vehicle claims, and a small number of them are fraud (like staged or exaggerated accidents). In this project we try to predict whether a claim is fraudulent using tabular and image datasets.
 
 ### Why We Picked It
 
@@ -44,12 +44,12 @@ Our aim is to build and fairly compare machine learning models for fraud detecti
 
 ## Datasets
 
-| | Dataset 1: Vehicle Claims Fraud Detection | Dataset 2: Car Severity Image |
+| | Dataset 1: fraud_oracle | Dataset 2: Car Insurance Fraud Detection |
 |---|---|---|
 | **Source and link** | [Kaggle](https://www.kaggle.com/datasets/tajamulkhan/fraud-oracle) | [Kaggle](https://www.kaggle.com/datasets/pacificrm/car-insurance-fraud-detection?resource=download) |
 | **Licence** | MIT | CC0: Public Domain |
-| **Size** | About 15,400 claims and 33 features | 2,300+ images |
-| **Classes** | 2 (fraud / not fraud) | 3 (minor / moderate / severe) |
+| **Size** | About 15,400 claims and 33 features | 6500+ images |
+| **Classes** | 2 (fraud / not fraud) | Test and Train Folders with Fraud and Non-Fraud Images Respectively |
 | **Feature types** | Mostly nominal, with a few numeric ones | Raw pixels (colour) |
 | **Why we chose it** | Nominal data works well with trees and Bayes, and it is imbalanced like real fraud data | Lets us build and tune a CNN |
 | **Prior use** | People have compared lots of classifiers on it in public notebooks. One reports AdaBoost as the best at 95.9% accuracy [3]. | Damage severity classification is a common public task, e.g. on Roboflow Universe [4]. |
