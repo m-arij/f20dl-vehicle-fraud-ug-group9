@@ -11,3 +11,5 @@ How to set it up:
 Expected counts:
 - train: 200 Fraud, 5,000 Non-Fraud
 - test: 93 Fraud, 1,323 Non-Fraud
+
+Use Python 3.12 (TensorFlow does not have a stable version for 3.14 yet).
