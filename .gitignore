@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local datasets
+data/raw/
+
+# macOS files
+.DS_Store
+
+# Local Python environment
+.venv/
