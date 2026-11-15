@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# our additions
+data/*
+!data/README.md
+*.keras
+*.h5
+.venv/
+.ipynb_checkpoints/
