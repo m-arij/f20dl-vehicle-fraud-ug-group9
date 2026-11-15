@@ -19,7 +19,7 @@ We first used Python 3.14, but TensorFlow does not have a stable release for it 
    ```
 2. Download the dataset (see `data/README.md`) and change `DATA_DIR` in the first cell of each notebook.
 3. Run `image_eda.ipynb` from top to bottom.
-4. Run `image_cnn.ipynb` from top to bottom. Training both CNNs takes about 40 minutes on a CPU. The trained models are saved to `models/`
+4. Run `image_cnn.ipynb` from top to bottom. Training both CNNs takes about 40 minutes on a CPU but The trained models are included in models/. To skip training, run Cells 1–4, skip the two training cells, and run from the load cell onwards. The trained models are saved to `models/`
 
 All random seeds are fixed (`SEED = 42`) so results stay the same between runs.
 

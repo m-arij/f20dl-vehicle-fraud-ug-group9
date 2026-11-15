@@ -223,6 +223,7 @@ __marimo__/
 data/*
 !data/README.md
 *.keras
+!models/*.keras
 *.h5
 .venv/
 .ipynb_checkpoints/
