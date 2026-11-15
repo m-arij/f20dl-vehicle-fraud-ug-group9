@@ -111,6 +111,10 @@ Fraud is only a small part of the tabular claims (about 6%), so the data is real
 
 ---
 
+## Image Dataset (CNN)
+
+This part uses the car image/photos dataset to check if a CNN can tell fraud and non-fraud claim images apart. It is a separate task from the table dataset. Full details (setup, preprocessing, models, parameters and results): [`notebooks/README.md`]
+
 ## References
 
 1. Khan, T. *fraud_oracle* [Dataset]. Kaggle. Available at: https://www.kaggle.com/datasets/tajamulkhan/fraud-oracle.
