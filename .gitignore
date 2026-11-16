@@ -219,11 +219,21 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# our additions
+# Local datasets
 data/*
 !data/README.md
+
+# macOS files
+.DS_Store
+
+# Local Python environment
+.venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files
 *.keras
 !models/*.keras
 *.h5
-.venv/
-.ipynb_checkpoints/
+
